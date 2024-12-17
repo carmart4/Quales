@@ -9,6 +9,10 @@ Proyecto final integrador para la capacitación de análisis de datos y gestión
   <img src="https://github.com/smartinez24/Quales/blob/main/Diagrama_modelo_completo.png" width="700" />
 </div>
 
+<div id ='badges' align = 'center'>
+  <a href = 'https://www.linkedin.com/in/carlos-martinez08'>
+    <img src = 'https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt = 'LinkedIn Badge' />
+
 <div align = 'center'>
 </div>
 
