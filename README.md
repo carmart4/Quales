@@ -8,4 +8,6 @@ Proyecto final integrador para la capacitación de análisis de datos y gestión
 <div align = 'center'>
 </div>
 
-hola
+---
+El objetivo de este proyecto es desarrollar una solución de datos, abordando los conceptos de cultura de datos, gestión y visualización, y relevamiento funcional, para una empresa ficticia dedicada al comercio minorista de electrodomésticos.  
+---
