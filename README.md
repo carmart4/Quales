@@ -59,7 +59,7 @@ Cabe resaltar que, para ambas instancias del proyecto, los procesos de ETL, vali
 <h3> Contenido del proyecto </h3>
 
 - 🔍 Extracción y limpieza de datos
-- 📊 Análisis exploratorio  
+- 📊 Análisis exploratorio de datos
 - ✅ Validación e incorporación 
 - 📈 Visualizaciones interactivas 
 
