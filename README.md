@@ -67,28 +67,30 @@ Cabe resaltar que, para ambas instancias del proyecto, los procesos de ETL, vali
 
 <h3> Estructura archivos y ruta de ejecución </h3>
 
-├───datasets
-├───Diagramas
-├───Proyecto_final
-├───Python_Scripts
-│   ├───fase1
-│   │   ├───DW
-│   │   ├───INT
-│   │   └───STG
-│   ├───fase2
-│   │   ├───DW_log
-│   │   ├───INT_log
-│   │   └───STG_log
-│   └───__pycache__
-└───SQL_Scripts
-    ├───fase1
-    │   ├───creation
-    │   └───stored_procedures_created
-    │       ├───SP_DW
-    │       └───SP_INT
-    └───fase2
-        ├───creation
-        └───stored_procedures_created
-            ├───SP_DW
-            └───SP_INT
+> [!WARNING]
+> Esta estructura está pensada en la ruta de ejecución. Dentro del proyecto se verán los ficheros de cada carpeta. 
+
+```
+Quales
+├─── SQL_Scripts
+    ├─── fase1
+    │   ├─── creation # Es importante seguir el orden MODEL, INTER y en último lugar STG.
+    │   └─── stored_procedures_created
+│─── Python_Scripts
+│   ├───fase1 # VENTAS es la tabla de hechos. Es por eso que en todas las fases, los procesos etl de ventas, se debe ejecutar en último lugar. 
+│   │   ├─── STG
+│   │   ├─── INT
+│   │   └─── DW
+├─── SQL_Scripts
+    ├─── fase2
+        │   ├─── creation # Es importante seguir el orden MODEL, INTER y en último lugar STG.
+        │   └─── stored_procedures_created
+└─── Python_Scripts
+│   ├─── fase2 # Dada la jerarquía del modelo, PROVINCIA se debe ejecutar en primer lugar. Por último, la dimensión ENTREGA, que será nuestra tabla de hechos. 
+│   │   ├─── STG_log
+│   │   ├─── INT_log
+│   │   └─── DW_log
+
+```
+
 ---
