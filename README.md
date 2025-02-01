@@ -64,3 +64,31 @@ Cabe resaltar que, para ambas instancias del proyecto, los procesos de ETL, vali
 - 📈 Visualizaciones interactivas 
 
 ---
+
+<h3> Estructura archivos y ruta de ejecución </h3>
+
+├───datasets
+├───Diagramas
+├───Proyecto_final
+├───Python_Scripts
+│   ├───fase1
+│   │   ├───DW
+│   │   ├───INT
+│   │   └───STG
+│   ├───fase2
+│   │   ├───DW_log
+│   │   ├───INT_log
+│   │   └───STG_log
+│   └───__pycache__
+└───SQL_Scripts
+    ├───fase1
+    │   ├───creation
+    │   └───stored_procedures_created
+    │       ├───SP_DW
+    │       └───SP_INT
+    └───fase2
+        ├───creation
+        └───stored_procedures_created
+            ├───SP_DW
+            └───SP_INT
+---
