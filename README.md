@@ -94,3 +94,45 @@ Quales
 ```
 
 ---
+
+<h3> Visualizaciones </h3>
+
+<h4> Resumen de KPIs de ventas </h4>
+
+<div id = "header" align = "center">
+  <img src="https://github.com/carmart4/Quales/blob/main/PowerBI/capturas/ventas.jpg" width="700" />
+</div>
+
+<h4> Resumen de KPIs de productos y clientes </h4>
+
+<div id = "header" align = "center">
+  <img src="https://github.com/carmart4/Quales/blob/main/PowerBI/capturas/prod_client.jpg" width="700" />
+</div>
+
+<h4> Tabla de detalles de ventas </h4>
+
+<div id = "header" align = "center">
+  <img src="https://github.com/carmart4/Quales/blob/main/PowerBI/capturas/detvtas.jpg" width="700" />
+</div>
+
+<h4> Tabla comparativa de ventas por tienda </h4>
+
+<div id = "header" align = "center">
+  <img src="https://github.com/carmart4/Quales/blob/main/PowerBI/capturas/tiendavtas.jpg" width="700" />
+</div>
+
+<h4> Tablero de KPIs y visualizaciones sobre entregas </h4>
+
+<div id = "header" align = "center">
+  <img src="https://github.com/carmart4/Quales/blob/main/PowerBI/capturas/entregas.jpg" width="700" />
+</div>
+
+---
+
+<h3> Tecnologías </h3>
+
+- 🐍 Python - Pandas 
+- 🧾 SQL Server Management Studio
+- 📊 PowerBI - DAX
+
+---
